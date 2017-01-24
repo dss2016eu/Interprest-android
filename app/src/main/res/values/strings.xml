@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name" translatable="false">Interprest</string>
+
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_private">Zona Privada</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_profile">Perfil</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_settings">Acerca de...</string>
+    <string name="action_close_session">Cerrar Sesión</string>
+
+    <string name="error_message_no_internet">No tienes conexión a internet. Inténtalo más tarde</string>
+
+    <string name="title_activity_login">Acceso</string>
+
+
+    <string name="saving">Guardando. Por favor espere...</string>
+    <string name="loading">Cargando. Por favor espere...</string>
+    <string name="back_twice">Pulse el botón atrás para salir de la aplicación</string>
+
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="error_required">Debes rellenar todos los campos</string>
+    <string name="no_login">Usuario incorrecto</string>
+    <string name="email">Usuario</string>
+    <string name="password">Contraseña</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_preference">SettingsActivity</string>
+
+
+    <string name="login_required">Para realizar esta operación debes iniciar sesión</string>
+
+    <string name="login_conditions">Accediendo aceptas los %1$s y las %2$s</string>
+    <string name="login_conditions_terms">Términos y Condiciones</string>
+    <string name="login_conditions_policy">Políticas de Privacidad</string>
+
+    <string name="legal_cond"> Condiciones legales</string>
+    <string name="legal_terms">Términos y condiciones de uso</string>
+
+    <string name="privacy">Política de privacidad</string>
+
+    <string name="networks">Redes sociales</string>
+    <string name="web_page">Interprest  en la Web</string>
+    <string name="web_page_url"></string>
+    <string name="facebook_page">Interprest en Facebook</string>
+    <string name="twitter_page">Interprest en Twitter</string>
+    <string name="about">Acerca de...</string>
+    <string name="contactus">Contacta con nosotros</string>
+    <string name="contactus_text">¿En qué puedo ayudarte?</string>
+    <string name="tutorial">Ver tutorial</string>
+    <string name="version">Versión de la aplicacion: %1$s</string>
+
+    <string name="contact_developer_uri" translatable="false">mailto:biantik@biantik.coop</string>
+
+
+    <string name="wifi_disabled">Para poder utilizar Interprest debes activar la conexión WIFI. ¿Quieres activarla?</string>
+    <string name="enable_wifi">Activar WIFI</string>
+    <string name="exit_app">Salir de la aplicación</string>
+    <string name="wifi_not_found">La red WIFI %1$s no se ha encontrado.</string>
+    <string name="wifi_not_connected">No se puede conectar a la red Wifi %1$s</string>
+    <string name="connecting_to_wifi">Conectando a la WIFI %1$s</string>
+    <string name="wifi_alert">La aplicación solicita permiso para conectarse a la red WIFI %1$s.  ¿Quieres continuar?</string>
+    <string name="connecting">Conectando...</string>
+    <string name="action_back_twice">Pulse el botón atrás para salir de la aplicación</string>
+    <string name="no_translator">El usuario no tiene asignado un idioma para la interpretación</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_admin_main">Administración</string>
+    <string name="title_activity_translation">Interpretación</string>
+    <string name="title_activity_messages">Mensajes</string>
+    <string name="title_activity_translators">Intérpretes</string>
+    <string name="translation_description">Idioma de interpretación</string>
+    <string name="action_refresh">Actualizar</string>
+
+    <string name="action_ok">Aceptar</string>
+    <string name="title_activity_wifi_connect">WifiConnectActivity</string>
+    <string name="home">Inicio</string>
+    <string name="translation">Traducción</string>
+    <string name="messages">Mensajes</string>
+    <string name="language_selection">Idiomas de interpretación disponibles</string>
+    <string name="no_available_languages">Actualmente no hay idiomas de interpretación disponibles.</string>
+    <string name="push_refresh">Pulse el botón actualizar para intentarlo de nuevo</string>
+    <string name="error_select_language">Selecciona el idioma que quieres oir</string>
+    <string name="error_loading_track">No se puede acceder al servidor</string>
+    <string name="error_user_required">Tienes que indicar el usuario</string>
+    <string name="to_do">Todo</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="send_message_title">Enviar Mensaje</string>
+    <string name="send_message_description">¿Estás seguro de querer publicar el mensaje?</string>
+    <string name="title_activity_photoview">Imagen</string>
+    <string name="title_activity_html"></string>
+    <string name="init_translation">Pulse el botón para iniciar la interpretación</string>
+    <string name="error_no_wifi">Conectate a la wifi de Interprest. Una vez que lo hayas hecho vuelve a intentarlo.</string>
+    <string name="error_no_wifi2">No tienes conexión. Vuelve a intentarlo</string>
+    <string name="no_event">Actualmente no hay ningún evento disponible</string>
+    <string name="error_general">Se ha producido un error</string>
+    <string name="recording">Enviando audio</string>
+    <string name="stop_translation">Pulsa el botón para parar la interpretación</string>
+    <string name="initializing">Inicializando. Espere, por favor...</string>
+    <string name="stopping">Parando. Espere, por favor...</string>
+    <string name="record_audio_permission">Debes autorizar el permiso</string>
+    <string name="no_messages">Actualmente no hay mensajes publicados</string>
+
+    <string name="year">A</string>
+    <string name="month">M</string>
+    <string name="day">d</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+
+     <string name="privacy_content" translatable="false"><![CDATA[
+    <html>
+<body>
+    <h1>POLÍTICA DE PRIVACIDAD</h1>
+    <p>
+        Antes de registrarte como usuario de Interprest debes leer y aceptar tanto nuestras Condiciones de uso como esta política de privacidad.
+    </p>
+    <h4>1. Política de proteccion de datos personales</h4>
+    <p>
+        Interprest es una actividad de XXXXXXX, con domicilio social en la calle XXXXXXXX Donostia - San Sebastián.
+</p><p>
+A los efectos de lo previsto en la ley orgánica 15/1999 de 13 de diciembre de protección de datos de carácter personal, Interprest informa a la persona usuaria de que los datos personales recogidos son objeto de tratamiento automatizado y son incorporados a un fichero cuya titularidad y responsabilidad corresponde a XXXXXXXX.
+</p><p>
+Interprest proporciona a la persona usuaria los recursos técnicos adecuados para que, con carácter previo, pueda acceder a este aviso sobre Política de Protección de Datos para que determine de forma libre y voluntaria si quiere facilitar los datos personales que se le requieran y pueda prestar a XXXXXXXX su consentimiento al tratamiento automatizado de dichos datos.
+</p>
+
+</body></html>]]></string>
+
+        <string name="legal_terms_content" translatable="false"><![CDATA[
+    <html>
+<body>
+    <h1>CONDICIONES DE USO</h1>
+    <p>
+        <b>¡TE DAMOS LA BIENVENIDA! MEDIANTE EL USO DE ESTA APLICACIÓN MANIFIESTAS EXPRESAMENTE QUE HAS LEÍDO, CUMPLES Y ACEPTAS NUESTRAS CONDICIONES DE USO Y POLÍTICA DE PRIVACIDAD.</b>
+</p>
+<p>
+Por favor, lee atentamente nuestras Condiciones de uso y Política de privacidad ya que contienen toda la información relativa a tus derechos y obligaciones como persona usuaria de la aplicación Interprest.
+    </p>
+    <h4>1. Qué es la aplicación Interprest</h4>
+    <p>
+       La aplicación Interprest es una aplicación móvil que sirve de soporte al programa.........</p><p>
+A través de esta aplicación móvil podrás ver ..............</p>
+</body></html>]]></string>
+
+    <string name="licences"  translatable="false">Licencias de Software Libre</string>
+     <string name="licences_content"  translatable="false"><![CDATA[
+    <html>
+<body>
+    <h1>Picasso</h1>
+    <p>
+        Copyright 2013 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+        </p>
+
+ <h1>OkHttp</h1>
+Copyright 2016 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+
+ <h1>OkHttp, Okio</h1>
+Copyright 2016 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+ <h1>Retrofit</h1>
+Copyright 2013 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>Otto</h1>
+Copyright 2013 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>ButterKnife</h1>
+Copyright 2013 Jake Wharton
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>Gson</h1>
+Copyright 2008 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>Android-Saripaar</h1>
+Copyright 2012 - 2015 Mobs & Geeks
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>Dagger 2</h1>
+Copyright 2012 Square, Inc.
+Copyright 2012 Google, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>PhotoView</h1>
+Copyright 2011, 2012 Chris Banes
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</p>
+<h1>AndroidSwipeLayout</h1>
+The MIT License (MIT)
+
+Copyright (c) 2014 代码家
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</p>
+</body></html>]]></string>
+
+</resources>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray_lighter"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_normal"
+            android:text="@string/title_activity_translation" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/title_layout"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/TextFontLarge"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/spacing_normal">
+
+            <TextView
+                android:id="@+id/language"
+                style="@style/TextFontLarge"
+                android:layout_width="@dimen/button_height_normal"
+                android:layout_height="@dimen/button_height_normal"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_circle_primary_color"
+                android:textColor="@color/white"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/translation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/spacing_large"
+        android:background="@drawable/btn_circle_stroke_primary_color"
+        android:src="@drawable/stop_translation"></ImageButton>
+
+    <TextView
+        android:id="@+id/recording_text"
+        style="@style/TextFontNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/translation_button"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/recording"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/translation_text"
+        style="@style/TextFontLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/translation_button"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:padding="40dp"
+        android:gravity="center"
+        android:text="@string/init_translation"/>
+
+
+</RelativeLayout>

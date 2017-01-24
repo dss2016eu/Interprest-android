@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <gradient android:angle="90" />
+
+    <padding
+        android:bottom="@dimen/spacing_large"
+        android:left="@dimen/spacing_large"
+        android:right="@dimen/spacing_large"
+        android:top="@dimen/spacing_large" />
+
+    <stroke android:width="2dp" android:color="@color/primary" />
+    
+</shape>

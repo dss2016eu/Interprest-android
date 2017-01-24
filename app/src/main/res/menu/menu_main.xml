@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_refresh" android:title="@string/action_refresh"
+        android:orderInCategory="1" app:showAsAction="always" android:icon="@drawable/ic_autorenew_white_24dp" />
+    <item android:id="@+id/action_login" android:title="@string/action_private"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_close_session" android:title="@string/action_close_session"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

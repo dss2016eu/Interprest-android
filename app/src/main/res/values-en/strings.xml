@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_login">Login</string>
+    <string name="action_private">Private area</string>
+    <string name="action_send">Send</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_settings">About this</string>
+    <string name="action_close_session">Log out</string>
+
+    <string name="error_message_no_internet">No Internet connection. Try again later.</string>
+
+    <string name="title_activity_login">Login</string>
+
+
+    <string name="saving">Saving. Wait a moment, please.</string>
+    <string name="loading">Loading. Wait a moment, please.</string>
+    <string name="back_twice">Push back button to close app.</string>
+
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="error_required">You must fill all inputs.</string>
+    <string name="no_login">Incorrect user</string>
+    <string name="email">User</string>
+    <string name="password">Password</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_preference">SettingsActivity</string>
+
+
+    <string name="login_required">You must be logged to take this action</string>
+
+    <string name="login_conditions">By logging in you are accepting the %1$s and the %2$s</string>
+    <string name="login_conditions_terms">Terms and Conditions</string>
+    <string name="login_conditions_policy">Privacy policies</string>
+
+    <string name="legal_cond">Legal conditions</string>
+    <string name="legal_terms">Terms and conditions of use</string>
+
+    <string name="privacy">Privacy policies</string>
+
+    <string name="networks">Social networks</string>
+    <string name="web_page">Interprest  webpage</string>
+    <string name="web_page_url"></string>
+    <string name="facebook_page">Interprest on Facebook</string>
+    <string name="twitter_page">Interprest on Twitter</string>
+    <string name="about">About this</string>
+    <string name="contactus">Contact us</string>
+    <string name="contactus_text">What can I help you with?</string>
+    <string name="tutorial">Watch tutorial</string>
+    <string name="version">App version: %1$s</string>
+
+
+    <string name="wifi_disabled">In order to use Interprest you must activate WIFI connection. Activate now?</string>
+    <string name="enable_wifi">Activate WIFI</string>
+    <string name="exit_app">Close app</string>
+    <string name="wifi_not_found">WIFI network %1$s is not available.</string>
+    <string name="wifi_not_connected">Can\'t connect to WIFI network %1$s</string>
+    <string name="connecting_to_wifi">Connecting to WIFI network %1$s</string>
+    <string name="wifi_alert">The app needs permission to connect to WIFI network %1$s.  Would you like to continue?</string>
+    <string name="connecting">Connecting...</string>
+    <string name="action_back_twice">Push back button to close app</string>
+    <string name="no_translator">This user has not any translation language assigned.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_admin_main">Administration</string>
+    <string name="title_activity_translation">Translation</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_translators">Translators</string>
+    <string name="translation_description">Translation language</string>
+    <string name="action_refresh">Update</string>
+
+    <string name="action_ok">Ok</string>
+    <string name="title_activity_wifi_connect">WifiConnectActivity</string>
+    <string name="home">Home</string>
+    <string name="translation">Translation</string>
+    <string name="messages">Messages</string>
+    <string name="language_selection">Available translation languages</string>
+    <string name="no_available_languages">There is no translation language available.</string>
+    <string name="push_refresh">Push update button to try again.</string>
+    <string name="error_select_language">Choose the language you want to listen to.</string>
+    <string name="error_loading_track">Can\'t connect to server</string>
+    <string name="error_user_required">You must provide a user</string>
+    <string name="to_do">Todo</string>
+    <string name="title_activity_help">Help</string>
+    <string name="send_message_title">Send message</string>
+    <string name="send_message_description">Are you sure you want to publish the message?</string>
+    <string name="title_activity_photoview">Image</string>
+    <string name="title_activity_html"></string>
+    <string name="init_translation">Push button to start translation</string>
+    <string name="error_no_wifi">Connect to WIFI network Interprest. Try again once you are connected.</string>
+    <string name="error_no_wifi2">No connection. Try again.</string>
+    <string name="no_event">There is no available event at the moment.</string>
+    <string name="error_general">An error occurred</string>
+    <string name="recording">Sending audio</string>
+    <string name="stop_translation">Push button to stop translation</string>
+    <string name="initializing">Starting. Wait a moment please.</string>
+    <string name="stopping">Stoping. Wait a moment please.</string>
+    <string name="record_audio_permission">You must authorize the permission</string>
+    <string name="no_messages">There are no published messages at the moment.</string>
+
+    <string name="year">Y</string>
+    <string name="month">M</string>
+    <string name="day">d</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+</resources>

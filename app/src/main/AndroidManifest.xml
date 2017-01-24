@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="coop.biantik.traductor"
+    android:hardwareAccelerated="true"
+    android:installLocation="auto"
+    android:largeHeap="true">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"></activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_login"></activity>
+        <activity
+            android:name=".activities.WebViewActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_web_view"></activity>
+        <activity
+            android:name=".activities.HtmlActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_html"></activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="1fb548fddfcdd95dddcfdeb0e94bc723a7a8c461" />
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.PreferenceActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_preference"></activity>
+        <activity
+            android:name=".activities.AdminMainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_admin_main"></activity>
+        <activity
+            android:name=".activities.TranslationActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_translation"></activity>
+        <activity
+            android:name=".activities.AdminPostsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_messages"></activity>
+        <activity
+            android:name=".activities.TranslatorsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_translators"></activity>
+        <activity
+            android:name=".activities.PhotoViewActivity"
+            android:label="@string/title_activity_photoview"></activity>
+        <activity
+            android:name=".activities.WifiConnectActivity"
+            android:label="@string/title_activity_wifi_connect"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name="net.majorkernelpanic.streaming.rtsp.RtspServer" />
+        <service android:name="coop.biantik.traductor.services.PlayAudio"  android:enabled="true"></service>
+
+    </application>
+
+</manifest>

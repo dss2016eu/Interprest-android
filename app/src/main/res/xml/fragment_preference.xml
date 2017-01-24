@@ -1,0 +1,112 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:icon="@null">
+
+    <PreferenceCategory
+        android:key="pref_legal"
+        android:title="@string/legal_cond">
+
+        <Preference
+            android:key="pref_licences"
+            android:title="@string/licences">
+
+            <intent
+                android:targetClass="coop.biantik.traductor.activities.HtmlActivity"
+                android:targetPackage="coop.biantik.traductor">
+
+                <extra
+                    android:name="html"
+                    android:value="licences" />
+            </intent>
+
+        </Preference>
+        <Preference
+            android:key="pref_terms"
+            android:title="@string/legal_terms">
+
+            <intent
+                android:targetClass="coop.biantik.traductor.activities.HtmlActivity"
+                android:targetPackage="coop.biantik.traductor">
+
+                <extra
+                    android:name="html"
+                    android:value="legal_terms" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:key="pref_privacy"
+            android:title="@string/privacy">
+
+            <intent
+                android:targetClass="coop.biantik.traductor.activities.HtmlActivity"
+                android:targetPackage="coop.biantik.traductor">
+
+                <extra
+                    android:name="html"
+                    android:value="privacy" />
+            </intent>
+
+        </Preference>
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory
+        android:key="pref_networks"
+        android:title="@string/networks">
+
+        <Preference
+            android:key="pref_web"
+            android:title="@string/web_page">
+
+            <intent
+                android:targetClass="coop.biantik.izanezberdin.activities.WebViewActivity"
+                android:targetPackage="coop.biantik.izanezberdin">
+
+                <extra
+                    android:name="url"
+                    android:value="@string/web_page_url" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:key="pref_facebook"
+            android:title="@string/facebook_page">
+
+            <intent
+                android:targetClass="coop.biantik.izanezberdin.activities.WebViewActivity"
+                android:targetPackage="coop.biantik.izanezberdin">
+
+                <extra
+                    android:name="url"
+                    android:value="https://www.facebook.com/profile.php?id=100009377818539" />
+            </intent>
+        </Preference>
+
+
+    </PreferenceCategory>
+-->
+    <PreferenceCategory
+        android:key="pref_about"
+        android:title="@string/about">
+
+        <Preference
+            android:key="pref_contactus"
+            android:title="@string/contactus">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/contact_developer_uri">
+                <extra
+                    android:name="android.intent.extra.SUBJECT"
+                    android:value="@string/contactus" />
+            </intent>
+        </Preference>
+
+
+        <Preference
+            android:key="pref_version"
+            android:title="@string/version" />
+    </PreferenceCategory>
+</PreferenceScreen>

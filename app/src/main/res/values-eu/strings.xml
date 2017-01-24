@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_login">Saioa hasi</string>
+    <string name="action_private">Pribatua</string>
+    <string name="action_send">Bidali</string>
+    <string name="action_cancel">Ezeztatu</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_search">Bilatu</string>
+    <string name="action_edit">Editatu</string>
+    <string name="action_profile">Profila</string>
+    <string name="action_delete">Ezabatu</string>
+    <string name="action_settings">Honi buruz...</string>
+    <string name="action_close_session">Saioa itxi</string>
+
+    <string name="error_message_no_internet">No tienes conexión a internet. Inténtalo más tarde</string>
+
+    <string name="title_activity_login">Sarbidea</string>
+
+
+    <string name="saving">Gordetzen. Mesedez itxaron...</string>
+    <string name="loading">Kargatzen. Mesedez itxaron...</string>
+    <string name="back_twice">Atzera botoia sakatu aplikaziotik irtetzeko</string>
+
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="error_required">Eremu guztiak bete behar dira</string>
+    <string name="no_login">Erabiltzaile ez zuena</string>
+    <string name="email">Erabiltzailea</string>
+    <string name="password">Pasahitza</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_preference">SettingsActivity</string>
+
+
+    <string name="login_required">Ekintza hau egiteko saioa hasi behar duzu.</string>
+
+    <string name="login_conditions">Aurrera eginda %1$s eta %2$s onartzen dituzu</string>
+    <string name="login_conditions_terms">Baldintzak</string>
+    <string name="login_conditions_policy">Pribatutasun Politika</string>
+
+    <string name="legal_cond"> Condiciones legales</string>
+    <string name="legal_terms">Términos y condiciones de uso</string>
+
+    <string name="privacy">Política de privacidad</string>
+
+    <string name="networks">Sare sozialak</string>
+    <string name="web_page">Interprest webgunea</string>
+    <string name="web_page_url">http://interprest.io</string>
+    <string name="facebook_page">Interprest Facebooken</string>
+    <string name="twitter_page">Interprest Twitteren</string>
+    <string name="about">Honi buruz...</string>
+    <string name="contactus">Gurekin kontaktuan jarri</string>
+    <string name="contactus_text">Zertan lagun zaitzaket?</string>
+    <string name="tutorial">Tutoriala  ikusi</string>
+    <string name="version">Bertsioa: %1$s</string>
+
+
+    <string name="wifi_disabled">Interprest erabiltzeko WIFI konexioa aktibatu.</string>
+    <string name="enable_wifi">WIFI aktibatu</string>
+    <string name="exit_app">Aplikaziotik irten</string>
+    <string name="wifi_not_found">Ez da %1$s WIFI sarerik aurkitu.</string>
+    <string name="wifi_not_connected">Ezin da %1$s WIFI sarera konektatu.</string>
+    <string name="connecting_to_wifi">%1$s WIFI sarera konektatzen</string>
+    <string name="wifi_alert">%1$s WIFI sarera konektatzeko baimena eskatzen ari zara.  Jarraitu nahi duzu?</string>
+    <string name="connecting">Konektatzen...</string>
+    <string name="action_back_twice">Atzera botoia sakatu aplikaziotik irtetzeko</string>
+    <string name="no_translator">Erabiltzaileak ez dauka interpretazio hizkuntzarik esleituta.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_admin_main">Kudeaketa</string>
+    <string name="title_activity_translation">Interpretazioa</string>
+    <string name="title_activity_messages">Mezuak</string>
+    <string name="title_activity_translators">Interpreteak</string>
+    <string name="translation_description">Interpretazio hizkuntza</string>
+    <string name="action_refresh">Eguneratu</string>
+
+    <string name="action_ok">Ados</string>
+    <string name="title_activity_wifi_connect">WifiConnectActivity</string>
+    <string name="home">Hasiera</string>
+    <string name="translation">Interpretazioa</string>
+    <string name="messages">Mezuak</string>
+    <string name="language_selection">Interpretazio hizkuntzak aukeran.</string>
+    <string name="no_available_languages">Interpretazio hizkuntzarik ez.</string>
+    <string name="push_refresh">Berriro saiatzeko, "eguneratu" botoia sakatu.</string>
+    <string name="error_select_language">Hizkuntza aukeratu</string>
+    <string name="error_loading_track">Ezin da zerbitzarira konektatu</string>
+    <string name="error_user_required">Erabiltzailerik ez da zehaztu.</string>
+    <string name="to_do">Todo</string>
+    <string name="title_activity_help">Laguntza</string>
+    <string name="send_message_title">Mezua bidali</string>
+    <string name="send_message_description">Mezua publikatu nahi duzu?</string>
+    <string name="title_activity_photoview">Irudia</string>
+    <string name="title_activity_html"></string>
+    <string name="init_translation">Interpretazioa hasteko botoia sakatu.</string>
+    <string name="error_no_wifi">Lehenik eta behin Interprest WIFIra konektatu.</string>
+    <string name="error_no_wifi2">Ez duzu koenxiorik, saiatu berriro.</string>
+    <string name="no_event">Ez dago ekitaldirik ikusgai.</string>
+    <string name="error_general">Akats bat gertatu da.</string>
+    <string name="recording">Audioa bidaltzen</string>
+    <string name="stop_translation">Interpretazioa gelditzeko botoia sakatu.</string>
+    <string name="initializing">Hasieratzen. Itxaron pixka bat...</string>
+    <string name="stopping">Geratzen. Itxaron pixka bat...</string>
+    <string name="record_audio_permission">Audioa bidaltzeko baimena eman.</string>
+    <string name="no_messages">Oraindik ez dago mezurik</string>
+
+    <string name="year">U</string>
+    <string name="month">H</string>
+    <string name="day">e</string>
+    <string name="hour">o</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+</resources>
